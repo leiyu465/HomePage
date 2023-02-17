@@ -9,8 +9,9 @@ const babel = require('gulp-babel')
 const autoprefixer = require('gulp-autoprefixer')
 const connect = require('gulp-connect')
 const pug = require('gulp-pug')
-const sass = require('gulp-sass')
-sass.compiler = require('node-sass')
+// const sass = require('gulp-sass')
+const sass = require('gulp-sass')(require('node-sass'));
+// sass.compiler = require('node-sass')
 
 const config = require('./config.json')
 
@@ -66,8 +67,8 @@ gulp.task('watch', function () {
 	gulp.watch('./src/css/**/*.scss', gulp.parallel(['css']))
 	gulp.watch('./src/js/*.js', gulp.parallel(['js']))
 	connect.server({
-		root: 'dist',
+		root: '/Users/gaoyuan1/github.com/leiyu465/HomePage/dist',
 		livereload: true,
-		port: 8080
+		port: 38080
 	})
 })

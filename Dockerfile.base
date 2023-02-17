@@ -1,0 +1,14 @@
+FROM registry.sensetime.com/spring-test/spring-infra/yarn:latest as builder
+
+RUN ln -sf /bin/bash /bin/sh
+
+ADD . /frontend
+
+RUN npm config set registry http://registry.npmmirror.com
+
+RUN npm config set proxy=http://172.16.1.135:3128
+
+RUN cd /frontend && \
+    rm -rf ./node_modules && \
+    npm install && \
+    mv node_modules /

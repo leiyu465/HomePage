@@ -1,19 +1,19 @@
 {
 	"head": {
-		"title": "一个坏掉的番茄",
-		"description": "Author:SimonMa,Category:Personal Blog",
+		"title": "最爱的人已在身边@小凌霄",
+		"description": "Author:煜辉, Category:Personal Blog",
 		"favicon": "favicon.ico"
 	},
 	"intro": {
-		"title": "Simon Ma",
-		"subtitle": "Front back left right end engineer",
-		"enter": "enter",
-		"supportAuthor": true,
+		"title": "小凌霄",
+		"subtitle": "最爱的人已在身边",
+		"enter": "爱你",
+		"supportAuthor": false,
 		"background": true
 	},
 	"main": {
-		"name": "Simon Ma",
-		"signature": "Code & Input & Output",
+		"name": "小凌霄",
+		"signature": "—— 最爱的人已在身边 ——",
 		"avatar": {
 			"link": "assets/avatar.jpg",
 			"height": "100",
@@ -21,22 +21,22 @@
 		},
 		"ul": {
 			"first": {
-				"href": "blog/",
+				"href": "#",
 				"icon": "bokeyuan",
 				"text": "Blog"
 			},
 			"second": {
-				"href": "about/",
+				"href": "#",
 				"icon": "xiaolian",
 				"text": "About"
 			},
 			"third": {
-				"href": "mailto:simon@tomotoes.com",
+				"href": "#",
 				"icon": "email",
 				"text": "Email"
 			},
 			"fourth": {
-				"href": "https://github.com/tomotoes",
+				"href": "#",
 				"icon": "github",
 				"text": "Github"
 			}
